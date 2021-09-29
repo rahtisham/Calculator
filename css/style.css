@@ -1,0 +1,135 @@
+/* 
+* Copyright 2011-2021 The Bootstrap Authors AHTISHAM
+* Copyright 2011-2021 Twitter, Inc. 
+
+* ==============================
+* CUSTOM STYLESHEET FOR STYLING
+* ==============================
+
+*/
+
+input,
+textarea {
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+  margin: 0;
+  outline: none;
+  padding: 10px;
+}
+
+input[type="button"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.input-group {
+  clear: both;
+  margin: 15px 0;
+  position: relative;
+}
+
+.input-group input[type='button'] {
+  background-color: #eeeeee;
+  min-width: 38px;
+  width: auto;
+  transition: all 300ms ease;
+}
+
+.input-group .button-minus,
+.input-group .button-plus {
+  font-weight: bold;
+  height: 38px;
+  padding: 0;
+  width: 38px;
+  position: relative;
+}
+
+.input-group .quantity-field {
+  position: relative;
+  height: 38px;
+  left: -6px;
+  text-align: center;
+  width: 62px;
+  display: inline-block;
+  font-size: 13px;
+  margin: 0 0 5px;
+  resize: vertical;
+}
+
+.button-plus {
+  left: -13px;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+  -webkit-appearance: none;
+}
+
+.CountCounter{
+    margin-top: 30px;
+    background: #fafafa;
+    display: flex;
+    align-items: baseline;
+}
+
+.counterSpc{
+    text-align: center;
+    background: #fafafa;
+    padding: 1px 19px 10px 19px;
+}
+
+input#addToCart.btn_c {
+    margin: auto;
+    width: 100%;
+    display: block;
+    margin-top: 12px;
+    max-width: 100%;
+    box-shadow: 0 2px 2px rgb(11 25 28 / 10%);
+}
+/* End of counterr styles */
+
+.HeddingStyle{
+    background-color: #24A9DE;
+    padding: 9px 0px 9px 17px;
+}
+
+.HeadFont{
+    font-weight: 300;
+    color: white;
+}
+
+.selectSpacing{
+    width: 100%;
+    margin-top: 15px;
+}
+
+.FontParagraph{
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.Spacing{
+    margin-top: 10px;
+}
+
+.Spacings{
+    margin-top: 30px;
+}
+
+span.ProductPricing {
+    color: red;
+}
+
+.bold_option_value{
+    font-size: 14px;
+}
+.spcDest{
+    margin-top: 13px;
+}
+
+
